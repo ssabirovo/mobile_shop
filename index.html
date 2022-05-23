@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="navbar">
+      <h1 class="navbar__products">Products</h1>
+      <i id="plusCart" class="fa-solid fa-cart-shopping"></i>
+    </section>
+    <section class="products">
+      <h1>Our Products</h1>
+      <div class="products__content">
+        <div class="products__content__product">
+          <img src="./IMAGES/iphone-7.png" alt="" />
+          <div class="products__content__product__info">
+            <h1>iPhone-7</h1>
+            <h1>$10</h1>
+          </div>
+          <button class="products__content__product__addCart" id="iPhone7">
+            <i class="fa-solid fa-cart-plus"></i>
+            add to cart
+          </button>
+        </div>
+      </div>
+    </section>
+    <div id="cart" class=""></div>
+
+    <!-- <div class=count'>
+      <img class="count__img" src="./IMAGES/iphone-7.png" alt="" />
+      <h1>iPhone-7</h1>
+      <h1>$10</h1>
+      <button>remove</button>
+    </div> -->
+    <script src="./jussa.js"></script>
+  </body>
+</html>
