@@ -53,7 +53,7 @@ start.addEventListener("click", () => {
 let cells = document.querySelectorAll(".cell");
 
 for (let i = 0; i < cells.length; i++) {
-  cells[i].addEventListener("onmouseover", () => {
+  cells[i].addEventListener("mouseover", () => {
     cells[i].style.backgroundColor = "red";
   });
 }
